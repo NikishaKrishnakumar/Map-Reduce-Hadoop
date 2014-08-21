@@ -1,0 +1,30 @@
+Timing of the Hadoop Job Runs:
+------------------------------
+
+
+1. For each manufacturer: GM, Ford, Toyota, etc find how many recalls.
+
+	         |(1,1)	 |   (2,1) |	     (2,2)	  |   (10,1) |   (10,2) |
+	         |--------|---------|----------------|----------|----------|
+Time Taken |	33 sec |	57 sec |	31 sec |	34 sec |	31 sec |
+
+
+2. How many cars were recalled for each year... That is for 2014, 2013, etc recalls in total
+
+	         |(1,1)	 |   (2,1) |	     (2,2)	  |   (10,1) |   (10,2) |
+	         |--------|---------|----------------|----------|----------|
+Time Taken |	33 sec |	27 sec |	35 sec |	23 sec |	30sec |
+
+
+3. Then for each year recalls for Tesla, GM, etc.
+
+	         |(1,1)	 |   (2,1) |	     (2,2)	  |   (10,1) |   (10,2) |
+	         |--------|---------|----------------|----------|----------|
+Time Taken |	27 sec |	33 sec |	20 sec |	34 sec |	23 sec |
+
+
+4. Identify (for years and models) the causes of those recalls: Tires,Transmission, computer, seat belts, etc.
+
+	         |(1,1)	 |   (2,1) |	     (2,2)	  |   (10,1) |   (10,2) |
+	         |--------|---------|----------------|----------|----------|
+Time Taken |	32 sec |	36 sec |	27 sec |	30 sec |	27 sec |
